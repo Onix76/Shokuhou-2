@@ -1,9 +1,6 @@
 from bot import CMD_INDEX
 
 
-from bot import CMD_INDEX
-
-
 class _BotCommands:
     def __init__(self):
         self.StartCommand = f'start{CMD_INDEX}'
@@ -46,7 +43,7 @@ class _BotCommands:
         self.QbZipLeechCommand = f'qbzipleech{CMD_INDEX}'
         self.LeechWatchCommand = f'leechwatch{CMD_INDEX}'
         self.LeechZipWatchCommand = f'leechzipwatch{CMD_INDEX}'
-        self.RssListCommand = f'list'
+        self.RssListCommand = f'feed'
         self.RssGetCommand = f'get'
         self.RssSubCommand = f'sub'
         self.RssUnSubCommand = f'unsub'
