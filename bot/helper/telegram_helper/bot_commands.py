@@ -46,10 +46,10 @@ class _BotCommands:
         self.QbZipLeechCommand = f'qbzipleech{CMD_INDEX}'
         self.LeechWatchCommand = f'leechwatch{CMD_INDEX}'
         self.LeechZipWatchCommand = f'leechzipwatch{CMD_INDEX}'
-        self.RssListCommand = f'list{CMD_INDEX}'
-        self.RssGetCommand = f'get{CMD_INDEX}'
-        self.RssSubCommand = f'sub{CMD_INDEX}'
-        self.RssUnSubCommand = f'unsub{CMD_INDEX}'
-        self.RssUnSubAllCommand = f'unsuball{CMD_INDEX}'
+        self.RssListCommand = f'list'
+        self.RssGetCommand = f'get'
+        self.RssSubCommand = f'sub'
+        self.RssUnSubCommand = f'unsub'
+        self.RssUnSubAllCommand = f'unsuball'
 
 BotCommands = _BotCommands()
